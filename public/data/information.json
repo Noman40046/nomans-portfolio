@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Borkot Ali",
+      "contact": "01755234344",
+      "charge": 400,
+      "img":"/public/build websites.png"
+    },
+    {
+      "id": 2,
+      "name": "Mahmudullah",
+      "contact": "01549999578",
+      "charge": 500,
+      "img":"/public/demo import.png"
+    },
+    {
+      "id": 3,
+      "name": "Karim",
+      "contact": "017552324341",
+      "charge": 500,
+      "img":"/public/figma,jpeg to html,css.png"
+    },
+    {
+      "id": 4,
+      "name": "Kuddus",
+      "contact": "017552324341",
+      "charge": 500,
+      "img":"/public/fixx theme problem.png"
+    },
+    {
+      "id": 5,
+      "name": "Akash",
+      "contact": "017552324341",
+      "charge": 500,
+      "img":"/public/install wordpress.png"
+    }
+  ]
+  

@@ -41,7 +41,7 @@ const Home = () => {
               <div className="w-[430px] flex justify-center items-center border-b-8 border-double border-gray-300">
                 <img
                   className="noman-img w-[400px] h-auto"
-                  src="../../public/noman3.png"
+                  src="../../noman3.png"
                   alt=""
                 />
               </div>

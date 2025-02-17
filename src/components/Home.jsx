@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div>
       <div className="bg-[#060606]">
-        <section className="py-10 sm:py-16 lg:py-24">
+        <section className="py-10 sm:py-16 lg:py-20">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
@@ -14,7 +14,7 @@ const Home = () => {
 
                   <div className="relative inline-flex mt-4 mb-4">
                     <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#FF014F]"></span>
-                    <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-7xl">
+                    <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-6xl">
                       NOMAN DIPTO
                     </h1>
                   </div>

@@ -1,8 +1,9 @@
+
 const About = () => {
   return (
     <div>
       <div className="bg-[#060606]">
-        <section className="lg:py-14">
+        <section className="lg:py-8">
           <div className="w-full flex items-center bg-[#060606]">
             <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-6  dark:text-white">
               <div className="flex flex-col gap-2 md:mb-2">
@@ -80,7 +81,7 @@ const About = () => {
 
                 </div>
                   {/* buttons------ */}
-                  <div className="flex gap-4 justify-center sm:justify-start">
+                  {/* <div className="flex gap-4 justify-center sm:justify-start">
                    
                     <a target="_blank"
                     href="https://drive.google.com/file/d/1BQfRX1Gw8UOCadUJ2Yl2q1mYXiDX44qt/view?usp=sharing"
@@ -100,7 +101,21 @@ const About = () => {
                     Hire Me
                   </a>
                     
+                  </div>              
+ */}
+
+
+                  {/* my interest..... */}
+                  <div className="interest">
+                  <h1 className="text-3xl font-semibold ">MY INTEREST</h1>
+                  <div className="flex">
+                  <img className="w-72" src="../../interest.png" alt="" />
+
                   </div>
+
+                  </div>
+                
+                
 
 
                 </div>

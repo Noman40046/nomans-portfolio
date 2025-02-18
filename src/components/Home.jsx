@@ -30,7 +30,7 @@ const Home = () => {
                   <a target="_blank"
                     href="https://drive.google.com/file/d/1BQfRX1Gw8UOCadUJ2Yl2q1mYXiDX44qt/view?usp=sharing"
                     title=""
-                    className="inline-flex items-center justify-center px-10 py-4 text-lg font-semibold text-white transition-all duration-200 bg-[#FF014F] rounded-lg"
+                    className="JouneyShadow border border-[#FF014F] inline-flex items-center justify-center px-10 py-4 text-lg font-semibold text-white transition-all duration-200  rounded-lg"
                     role="button"
                   >                 
                     Explore Me

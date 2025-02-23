@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div>
-      <div className="bg-[#060606]">
-        <section className="py-10 sm:py-16 lg:py-20">
+      <div className="main-home bg-[#060606]">
+        <section className="py-10 sm:py-16 lg:py-5">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
@@ -38,12 +38,8 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="w-[430px] flex justify-center items-center border-b-8 border-double border-gray-300">
-                <img
-                  className="noman-img w-[400px] h-auto"
-                  src="../../noman3.png"
-                  alt=""
-                />
+              <div className="w-[530px] h-[630px] flex justify-center items-center">
+                
               </div>
             </div>
           </div>

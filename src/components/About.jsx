@@ -17,8 +17,8 @@ const About = () => {
                   <span className="text-white pr-2">
                     Web Developer
                   </span> ||
-                  <span className="text-white ps-2 pr-2"> Web Designer </span>{" "}
-                  || <span className="text-white ps-2">WordPress Developer</span>{" "}
+                  <span className="text-white ps-2 pr-2"> Web Designer </span>
+                  || <span className="text-white ps-2">WordPress Developer</span>
                 </span>
               </h4>
               <p className="text-lg mb-2">

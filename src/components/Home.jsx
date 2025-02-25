@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="w-[530px] h-[630px] flex justify-center items-center">
+              <div className="w-[530px] h-[535px] flex justify-center items-center">
                 
               </div>
             </div>

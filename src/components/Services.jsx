@@ -16,7 +16,7 @@ const Services = () => {
 
               
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                  <section className=" w-full h-full flex flex-col justify-center md:py-7 py-4 ">         
+                  <section className=" w-full h-full flex flex-col justify-center">         
                     <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-8 mt-8">
 
 

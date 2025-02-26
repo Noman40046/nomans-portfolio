@@ -1,17 +1,19 @@
-import Header from './components/Header';
-import { Outlet } from 'react-router-dom';
+import { Toaster } from "react-hot-toast";
+import Header from "./components/Header";
+import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-    return (
-        <div className="flex">
-            <div className="w-1/5 flex border-r-[1px] border-gray-700 bg-white main-header justify-center items-center fixed">
-                <Header />
-            </div>
-            <div className="w-4/5 ml-[20%] h-screen  pt-2">
-                <Outlet />
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex">
+      <div className="w-1/5 flex border-r-[1px] border-gray-700 bg-white main-header justify-center items-center fixed">
+        <Header />
+      </div>
+      <div className="w-4/5 ml-[20%] h-screen  pt-2">
+        <Outlet />
+        <Toaster position="top-center" reverseOrder={false} />
+      </div>
+    </div>
+  );
 };
 
 export default MainLayout;

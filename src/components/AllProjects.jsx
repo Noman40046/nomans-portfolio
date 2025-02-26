@@ -13,8 +13,7 @@ const Allprojects = () => {
 
               <div className="mx-auto max-w-7xl px-6 lg:px-8">      
                 <div className="grid grid-cols-1 mt-12 gap-x-10 gap-y-14 px-5 lg:mt-12 md:grid-cols-2">
-                  
-                  
+                                   
                     <div className="w-[95%] max-w-md mx-auto"> 
                       <img className="rounded-2xl border border-gray-700 transition-transform duration-300 hover:scale-105" src="../../project-1.jpg" alt="" />
                      <h1 className="text-2xl font-bold pt-5 pb-3 hover:text-[#FF014F] transition-all duration-1000">Consulting and Advisory Firm</h1>

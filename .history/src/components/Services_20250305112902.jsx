@@ -1,6 +1,6 @@
 import { FaCode, FaMobile, FaWordpress } from "react-icons/fa";
 import { FaComputer, FaShop } from "react-icons/fa6";
-import servicesData from '../../public/data/services.json';
+import servicesData from '../data/services.json';
 
 const Services = () => {
   return (

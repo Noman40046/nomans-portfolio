@@ -1,4 +1,4 @@
-import projectsData from '../../public/data/projects.json';
+import projectsData from '../data/projects.json';
 
 const Allprojects = () => {
   return (

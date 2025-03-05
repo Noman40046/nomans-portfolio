@@ -1,5 +1,5 @@
 
-import skillsData from '../../public/data/skills.json';
+import skillsData from '../../data/skill.json';
 
 const About = () => {
   return (

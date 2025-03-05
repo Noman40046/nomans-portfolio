@@ -1,0 +1,35 @@
+{
+  "education": [
+    {
+      "degree": "B.Sc in Computer Science",
+      "field": "Computer Science and Engineering",
+      "institution": "Delta Computer Science College, Rangpur",
+      "grade": "CGPA - 3.18/4.00",
+      "duration": "Feb 2019 - Oct 2024"
+    },
+    {
+      "degree": "Higher Secondary",
+      "field": "Science",
+      "institution": "Rangpur Govt College, Rangpur",
+      "grade": "GPA - 4.00/5.00",
+      "duration": "2015-2017"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Fiverr – Front-End Developer",
+      "duration": "Nov 22 - Present",
+      "link": "https://www.fiverr.com/nomandipto?up_rollout=true"
+    },
+    {
+      "title": "Upwork – Front-End Developer",
+      "duration": "Dec 22 - Present",
+      "link": "https://www.upwork.com/freelancers/~010bb0b9ee12dbfb3b?mp_source=share"
+    },
+    {
+      "title": "Britto Soft. (Skilled, Development & Tech Professional Team) - Front-End Developer",
+      "duration": "Jan 24 - Present",
+      "link": "https://brittosoft.com/"
+    }
+  ]
+}

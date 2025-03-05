@@ -1,6 +1,6 @@
 import { FaCalendarDay, FaGraduationCap } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
-import journeyData from '../../public/data/journeyData.json';
+import journeyData from '../data/journeyData.json';
 
 const Journey = () => {
   return (

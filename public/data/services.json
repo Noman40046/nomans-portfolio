@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "FaCode",
+    "title": "Web Development",
+    "description": "Crafting responsive and intuitive websites tailored to your unique needs using cutting-edge technologies."
+  },
+  {
+    "icon": "FaComputer",
+    "title": "UI/UX Design",
+    "description": "Creating visually appealing and user-centric designs that enhance user experiences and engagement."
+  },
+  {
+    "icon": "FaWordpress",
+    "title": "Custom CMS Solutions",
+    "description": "Building reusable and efficient CMS APIs to simplify website management and scalability."
+  },
+  {
+    "icon": "FaMobile",
+    "title": "Mobile App Development",
+    "description": "Designing and developing user-friendly mobile applications for iOS and Android, ensuring seamless performance and user satisfaction."
+  },
+  {
+    "icon": "FaShop",
+    "title": "E-commerce Development",
+    "description": "Creating robust platforms to elevate your online business presence."
+  }
+]

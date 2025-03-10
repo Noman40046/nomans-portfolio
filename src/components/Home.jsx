@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div>
       <div className="main-home bg-[#060606]">
-        <section className="py-10 sm:py-16 lg:py-5">
+        <section className="py-10 sm:py-16">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="w-[530px] h-[535px] flex justify-center items-center">
+              <div className="w-[530px] h-[548px] flex justify-center items-center">
                 
               </div>
             </div>

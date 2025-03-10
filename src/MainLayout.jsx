@@ -5,10 +5,10 @@ import { Outlet } from "react-router-dom";
 const MainLayout = () => {
   return (
     <div className="flex">
-      <div className="w-1/5 flex border-r-[1px] border-gray-700 bg-white main-header justify-center items-center fixed">
+      <div className="w-1/5 flex border-r-[1px] border-gray-700 bg-white main-header  items-center fixed">
         <Header />
       </div>
-      <div className="w-4/5 ml-[20%] h-screen  pt-2">
+      <div className="w-4/5 lg:ml-[20%]  h-screen pt-2">
         <Outlet />
         <Toaster position="top-center" reverseOrder={false} />
       </div>

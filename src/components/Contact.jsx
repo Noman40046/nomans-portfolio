@@ -30,9 +30,9 @@ const Contact = () => {
   };
   return (
     <div>
-      <div className="bg-[#060606]">
+      <div className="bg-black">
         <section className="lg:py-8">
-          <div className="w-full flex items-center bg-[#060606]">
+          <div className="w-full flex items-center bg-black">
             <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-6  dark:text-white">
               <div className="flex flex-col gap-2">
                 <h1 className="text-5xl font-bold">CONTACT ME</h1>

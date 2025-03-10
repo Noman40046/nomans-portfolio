@@ -1,0 +1,18 @@
+{
+  "skills": [
+    {
+      "name": "HTML/CSS/Javascript",
+      "percentage": "80%"
+    },
+    {
+      "name": "WordPress",
+      "percentage": "70%"
+    },
+    {
+      "name": "React JS",
+      "percentage": "45%"
+    }
+  ]
+}
+
+

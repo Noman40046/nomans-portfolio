@@ -39,7 +39,7 @@ const Home = () => {
               </div>
 
               <div className="lg:w-[530px] lg:h-[548px] flex justify-center items-center lg:order-2 order-1">
-                <img className="w-[250px] lg:w-full " src="../../public/noman4.png" alt="" />
+                <img className="w-[250px] lg:w-full " src="../../noman4.png" alt="" />
               </div>
             </div>
           </div>

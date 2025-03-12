@@ -33,18 +33,18 @@ const Contact = () => {
       <div className="bg-black">
         <section className="lg:py-8">
           <div className="w-full flex items-center bg-black">
-            <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-6  dark:text-white">
-              <div className="flex flex-col gap-2">
+            <div className="w-full lg:w-[90%] lg:mx-auto   lg:px-0 flex flex-col gap-4 lg:py-0 py-6 lg:pt-6 pt-20 px-4 dark:text-white">
+              <div className="flex flex-col gap-2 mb-10 lg:mb-0">
                 <h1 className="text-5xl font-bold">CONTACT ME</h1>
                 <span className="w-16 h-[4px] bg-[#FF014F] rounded"></span>
                 <span className="w-8 h-[4px] bg-[#FF014F] rounded"></span>
               </div>
 
               <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="px-0 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                   <div className="max-w-5xl mx-auto sm:mt-10">
-                    <div className="grid grid-cols-1 gap-20 text-center  md:grid-cols-3">
-                      <div className="flex flex-col items-center justify-center overflow-hidden border bg-[#0c0c0c] border-[#FF014F] rounded-lg">
+                    <div className="grid grid-cols-1 gap-10 text-center  md:grid-cols-3 lg:mb-0 mb-10">
+                      <div className="flex flex-col p-4 items-center justify-center overflow-hidden border bg-[#0c0c0c] border-[#FF014F] rounded-lg">
                         <FaPhone className="flex-shrink-0 w-8 h-8 mx-auto text-white" />
                         <p className="mt-6 text-md font-medium text-white">
                           +880 1720540046
@@ -54,7 +54,7 @@ const Contact = () => {
                         </p>
                       </div>
 
-                      <div className="flex flex-col items-center justify-center overflow-hidden bg-[#0c0c0c] border border-[#FF014F] rounded-lg">
+                      <div className="flex flex-col p-4 items-center justify-center overflow-hidden bg-[#0c0c0c] border border-[#FF014F] rounded-lg">
                         <div className="p-6">
                           <HiOutlineMailOpen className="flex-shrink-0 w-8 h-8 mx-auto text-white" />
                           <p className="mt-6 text-md font-medium text-white">
@@ -63,7 +63,7 @@ const Contact = () => {
                         </div>
                       </div>
 
-                      <div className="flex flex-col items-center justify-center overflow-hidden bg-[#0c0c0c] border border-[#FF014F] rounded-lg">
+                      <div className="flex flex-col items-center p-4 justify-center overflow-hidden bg-[#0c0c0c] border border-[#FF014F] rounded-lg">
                         <CiLocationOn className="flex-shrink-0 w-8 h-8 mx-auto text-white" />
                         <p className="mt-6 text-md font-medium text-white">
                           Nurpur Gravayard, Shapla Chattar, Rangpur
@@ -72,7 +72,7 @@ const Contact = () => {
                     </div>
 
                     <div className="mt-6 overflow-hidden border border-[#FF014F] bg-[#0c0c0c] rounded-lg">
-                      <div className="px-6 py-6">
+                      <div className="lg:px-6 px-4 py-6">
                         <form onSubmit={onSubmit} method="POST" className="py-5">
                         <input type="hidden" name="subject" value="New Messege"/>
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-5">

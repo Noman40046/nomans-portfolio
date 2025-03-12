@@ -5,15 +5,13 @@
 .main-header {
   background-image: linear-gradient(to bottom, #141414, #141414, #141414, #141414, #141414, #141416, #151318, #171219, #1c0f1b, #210b1a, #270516, #2d000e);
 }
+
 body{
   background-color: #000000;
   font-family: "Hind Siliguri", serif;
-  
 }
 
-.JouneyShadow{
-  box-shadow: rgb(255, 1, 79) 0px 5px 7px;
-}
+
 .main-home{
     background-image: url(../home-bg.jpg);
     background-position: center center;
@@ -21,6 +19,9 @@ body{
     background-repeat: no-repeat;
     padding-top: 120px;
 }
+
+
+
 
 
 /* :root {

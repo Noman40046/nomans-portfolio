@@ -8,7 +8,7 @@ const Journey = () => {
       <div className="bg-black">
         <section className="lg:py-8">
           <div className="w-full flex items-center ">
-            <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-6  dark:text-white">
+            <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col lg:pt-6 pt-20 lg:py-0 py-6 gap-4 dark:text-white">
               <div className="flex flex-col gap-2">
                 <h1 className="text-5xl font-bold">MY JOURNEY</h1>
                 <span className="w-16 h-[4px] bg-[#FF014F] rounded"></span>

@@ -7,7 +7,7 @@ const About = () => {
       <div className="">
         <section className="lg:py-8">
           <div className="w-full flex items-center ">
-            <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-6  dark:text-white">
+            <div className="w-full lg:w-[90%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 lg:pt-6 pt-20 bg-black dark:text-white">
               <div className="flex flex-col gap-2 md:mb-2">
                 <h1 className="text-5xl font-bold">ABOUT ME</h1>
                 <span className="w-16 h-[4px] bg-[#FF014F] rounded"></span>
@@ -23,7 +23,7 @@ const About = () => {
                   || <span className="text-white ps-2">WordPress Developer</span>
                 </span>
               </h4>
-              <p className="text-lg mb-2">
+              <p className="lg:text-lg text-lg text-text-wrap  mb-2">
                 As a front-end web developer, I am responsible for creating the
                 user-facing side of websites and web applications. I am
                 proficient in HTML, CSS, Bootstrap, JavaScript, and JavaScript

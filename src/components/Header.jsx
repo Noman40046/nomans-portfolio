@@ -95,7 +95,7 @@ const Header = () => {
     <div className="relative flex items-center justify-center">
       {/* Hamburger Button */}
       <button 
-        className="absolute top-5 left-5 text-white text-3xl md:hidden z-50" 
+        className="absolute top-5 left-5 text-white bg-[#FF014F] p-1 rounded-md text-3xl md:hidden z-50" 
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <FaTimes /> : <FaBars />}
@@ -103,17 +103,17 @@ const Header = () => {
 
       {/* Sidebar */}
       <div 
-        className={`navbar shadow-slate-400 flex flex-col h-screen fixed top-0 left-0 bg-[#1D1D1D] text-white w-64 p-5 transform ${isOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:translate-x-0 md:relative md:w-80`}>
+        className={`navbar shadow-slate-400 flex flex-col h-screen fixed top-0 left-0 lg:bg-none main-header    text-white p-5 transform ${isOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out md:translate-x-0 md:relative md:w-80 w-80 `}>
         
         <div className="img pb-5 text-center">
-          <img className="w-32 mx-auto" src="../../nomandipto.png" alt="Noman Dipto" />
+          <img className="w-52" src="../../nomandipto.png" alt="Noman Dipto" />
         </div>
 
-        <div className="flex-none w-full text-center">
+        <div className="flex  w-full text-center">
           <Link className="text-2xl font-bold text-white" to="">NOMAN DIPTO</Link>
         </div>
 
-        <div className="flex-none w-full pb-5">
+        <div className="flex  w-full pb-5">
           <ul className="menu menu-vertical font-semibold">
             <li>
               <NavLink className={({ isActive }) => `${isActive ? "bg-[#2D121A] text-[#FF014F]" : "text-gray-300"} w-full flex items-center p-2`} to="">
